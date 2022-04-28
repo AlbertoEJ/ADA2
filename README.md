@@ -37,17 +37,20 @@ help(guardar_grafo)
 
 ## Resúmen del proyecto 2
 
-### Modelo de malla
-#### Malla 30 nodos (5x6)
+### Modelo de malla de 30 nodos
+### Generado
 ![Grafo en malla de 30 nodos (5x6)][malla1]
-#### Malla 100 nodos (10x10)
-![Grafo en malla de 100 nodos (10x10)][malla2]
-#### Malla 500 nodos (50x10)
-![Grafo en malla de 500 nodos (50x10)][malla3]
+#### Calculado con BFS
+![Grafo en malla calculado con BFS][malla2]
+#### Calculado con DFS Iterativo
+![Grafo en malla calculado con DFS iterativo][malla3]
+#### Calculado con DFS Recursivo
+![Grafo en malla calculado con DFS recursivo][malla4]
 
-[malla1]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/malla/malla_30.png "Malla 30"
-[malla2]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/malla/malla_100.png "Malla 100"
-[malla3]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/malla/malla_500.png "Malla 500"
+[malla1]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/30%20nodos/grafo_malla_30_nodos.png?raw=true
+[malla2]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/30%20nodos/grafo_malla_30_bfs.png 
+[malla3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/30%20nodos/grafo_malla_30_dfs_i.png 
+[malla4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/30%20nodos/grafo_malla_30_dfs_r.png
 
 ### Modelo Erdos y Renyi
 **Nota: Se utilizó la distribución Fruchterman para el modelo de Erdos y Renyi**
