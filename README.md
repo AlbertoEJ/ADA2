@@ -295,3 +295,18 @@ help(guardar_grafo)
 [mendes1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/100/grafo_dorogovtsev_mendes_100_dfs_i.png
 [mendes1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/100/grafo_dorogovtsev_mendes_100dfs_r.png
 
+### Modelo Dorogovtsev-Mendes de 500 nodos
+#### Generado
+![Dorogovtsev-Mendes 500 nodos][mendes500]
+#### Calculado con BFS
+![Dorogovtsev-Mendes calculado con BFS][mendes5002]
+#### Calculado con DFS iterativo
+![Dorogovtsev-Mendes calculado con DFS iterativo][mendes5003]
+#### Calculado con DFS recursivo
+![Dorogovtsev-Mendes calculado con DFS recursivo][mendes5004]
+
+[mendes500]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/500/grafo_dorogovtsev_mendes_500.png
+[mendes5002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/500/grafo_dorogovtsev_mendes_500_bfs.png
+[mendes5003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/500/grafo_dorogovtsev_mendes_500_dfs_i.png
+[mendes5004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/500/grafo_dorogovtsev_mendes_500_dfs_r.png
+
