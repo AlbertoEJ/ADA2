@@ -38,7 +38,7 @@ help(guardar_grafo)
 ## Resúmen del proyecto 2
 
 ### Modelo de malla de 30 nodos
-### Generado
+#### Generado
 ![Grafo en malla de 30 nodos (5x6)][malla1]
 #### Calculado con BFS
 ![Grafo en malla calculado con BFS][malla2]
@@ -52,64 +52,246 @@ help(guardar_grafo)
 [malla3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/30%20nodos/grafo_malla_30_dfs_i.png 
 [malla4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/30%20nodos/grafo_malla_30_dfs_r.png
 
-### Modelo Erdos y Renyi
-**Nota: Se utilizó la distribución Fruchterman para el modelo de Erdos y Renyi**
+### Modelo de malla de 100 nodos
+#### Generado
+![Grafo en malla de 100 nodos (10x10)][malla100]
+#### Calculado con BFS
+![Grafo en malla calculado con BFS][malla1002]
+#### Calculado con DFS Iterativo
+![Grafo en malla calculado con DFS iterativo][malla1003]
+#### Calculado con DFS Recursivo
+![Grafo en malla calculado con DFS recursivo][malla1004]
 
-#### Erdos y Renyi 30 nodos 400 aristas
+[malla100]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/100%20nodos/grafo_malla_100_nodos.png
+[malla1002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/100%20nodos/grafo_malla_100_bfs.png
+[malla1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/100%20nodos/grafo_malla_100_dfs_i.png 
+[malla1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/100%20nodos/grafo_malla_100_dfs_r.png
+
+### Modelo de malla de 500 nodos
+#### Generado
+![Grafo en malla de 500 nodos (10x50)][malla500]
+#### Calculado con BFS
+![Grafo en malla calculado con BFS][malla5002]
+#### Calculado con DFS Iterativo
+![Grafo en malla calculado con DFS iterativo][malla5003]
+#### Calculado con DFS Recursivo
+![Grafo en malla calculado con DFS recursivo][malla5004]
+
+[malla500]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/500%20nodos/grafo_malla_500_nodos.png
+[malla5002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/500%20nodos/grafo_malla_500_nodos_bfs.png
+[malla5003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/500%20nodos/grafo_malla_500_nodos_dfs_i.png
+[malla5004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Mallas/500%20nodos/grafo_malla_500_nodos_dfs_r.png
+
+### Modelo Erdos y Renyi de 30 nodos y 400 aristas
+
+#### Generado
 ![Grafo erdos renyi 30 nodos y 400 aristas][erdos1]
-#### Erdos y Renyi 100 nodos 1500 aristas
-![Grafo erdos renyi 100 nodos y 1500 aristas][erdos2]
-#### Erdos y Renyi 500 nodos y 4000 aristas
-![Grafo erdos renyi 500 nodos y 4000 aristas][erdos3]
+#### Calculado con BFS
+![Grafo erdos renyi calculado con BFS][erdos2]
+#### Calculado con DFS iterativo
+![Grafo erdos renyi calculado con DFS iterativo][erdos3]
+#### Calculado con DFS recursivo
+![Grafo erdos renyi calculado con DFS recursivo][erdos4]
 
-[erdos1]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/erdos_renyii/erdos_30_400.png
-[erdos2]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/erdos_renyii/erdos_100_1500.png
-[erdos3]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/erdos_renyii/erdos_500_4000.png
+[erdos1]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/30/grafo_erdos_30_400.png
+[erdos2]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/30/grafo_erdos_30_400_bfs.png
+[erdos3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/30/grafo_erdos_30_400_dfs_i.png
+[erdos4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/30/grafo_erdos_30_400_dfs_r.png
 
-### Modelo Gilbert
-#### Gilbert de 30 nodos y probabilidad de 0.7
+### Modelo Erdos y Renyi de 100 nodos y 1500 aristas
+
+#### Generado
+![Grafo erdos renyi 100 nodos y 1500 aristas][erdos100]
+#### Calculado con BFS
+![Grafo erdos renyi calculado con BFS][erdos1002]
+#### Calculado con DFS iterativo
+![Grafo erdos renyi calculado con DFS iterativo][erdos1003]
+#### Calculado con DFS recursivo
+![Grafo erdos renyi calculado con DFS recursivo][erdos1004]
+
+[erdos100]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/100/grafo_erdos_100_1500.png
+[erdos1002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/100/grafo_erdos_100_1500_bfs.png
+[erdos1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/100/grafo_erdos_100_1500_dfs_i.png
+[erdos1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/100/grafo_erdos_100_1500_dfs_r.png
+
+### Modelo Erdos y Renyi de 500 nodos y 4000 aristas
+
+#### Generado
+![Grafo erdos renyi 500 nodos y 4000 aristas][erdos500]
+#### Calculado con BFS
+![Grafo erdos renyi calculado con BFS][erdos5002]
+#### Calculado con DFS iterativo
+![Grafo erdos renyi calculado con DFS iterativo][erdos5003]
+#### Calculado con DFS recursivo
+![Grafo erdos renyi calculado con DFS recursivo][erdos5004]
+
+[erdos500]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/500/grafo_erdos_500_4000.png
+[erdos5002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/500/grafo_erdos_500_4000_bfs.png
+[erdos5003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/500/grafo_erdos_500_4000_dfs_i.png
+[erdos5004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Erdos_Renyi/500/grafo_erdos_500_4000_dfs_r.png
+
+### Modelo Gilbert de 30 nodos y 0.7
+#### Generado
 ![Gilbert 30 nodos][gilbert1]
-#### Gilbert de 100 nodos y probabilidad de 0.6
-![Gilbert 100 nodos][gilbert2]
-#### Gilbert de 500 nodos y probabilidad de 0.04
-![Gilbert 500 nodos][gilbert3]
+#### Calculado con BFS
+![Gilbert calculado con BFS][gilbert2]
+#### Calculado con DFS iterativo
+![Gilbert calculado con DFS iterativo][gilbert3]
+#### Calculado con DFS recursivo
+![Gilbert calculado con DFS recursivo][gilbert4]
 
-[gilbert1]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/gilbert/gilbert_30_07.png
-[gilbert2]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/gilbert/gilbert_100_06.png
-[gilbert3]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/gilbert/gilbert_500_004.png
+[gilbert1]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/30/grafo_gilbert_30_07.png
+[gilbert2]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/30/grafo_gilbert_30_07_bfs.png
+[gilbert3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/30/grafo_gilbert_30_07_dfs_i.png
+[gilbert4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/30/grafo_gilbert_30_07_dfs_r.png
 
-### Modelo geográfico
-#### Geografico de 30 nodos y distancia 0.4
+### Modelo Gilbert de 100 nodos y 0.3
+#### Generado
+![Gilbert 100 nodos][gilbert100]
+#### Calculado con BFS
+![Gilbert calculado con BFS][gilbert1002]
+#### Calculado con DFS iterativo
+![Gilbert calculado con DFS iterativo][gilbert1003]
+#### Calculado con DFS recursivo
+![Gilbert calculado con DFS recursivo][gilbert1004]
+
+[gilbert100]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/100/grafo_gilbert_100_03.png
+[gilbert1002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/100/grafo_gilbert_100_03_bfs.png
+[gilbert1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/100/grafo_gilbert_100_03_dfs_i.png
+[gilbert1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/100/grafo_gilbert_100_03_dfs_r.png
+
+### Modelo Gilbert de 500 nodos y 0.02
+#### Generado
+![Gilbert 500 nodos][gilbert500]
+#### Calculado con BFS
+![Gilbert calculado con BFS][gilbert5002]
+#### Calculado con DFS iterativo
+![Gilbert calculado con DFS iterativo][gilbert5003]
+#### Calculado con DFS recursivo
+![Gilbert calculado con DFS recursivo][gilbert5004]
+
+[gilbert500]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/500/grafo_gilbert_500_002.png
+[gilbert5002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/500/grafo_gilbert_500_002_bfs.png
+[gilbert5003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/500/grafo_gilbert_500_002_dfs_i.png
+[gilbert5004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Gilbert/500/grafo_gilbert_500_002_dfs_r.png
+
+### Modelo geográfico de 30 nodos y 04
+#### Generado
 ![geografico 30 nodos][geo1]
-#### Geografico de 100 nodos y distancia 0.3
-![geografico 100 nodos][geo2]
-#### Geografico de 500 nodos y distancia 0.1
-![geografico 500 nodos][geo3]
+#### Calculado con BFS
+![geografico calculado con BFS][geo2]
+#### Calculado con DFS iterativo
+![geografico calculado con DFS iterativo][geo3]
+#### Calculado con DFS recursivo
+![geografico calculado con DFS recursivo][geo4]
 
-[geo1]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/geografico/geografico_30_04.png
-[geo2]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/geografico/geografico_100_03.png
-[geo3]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/geografico/geografico_500_01.png
+[geo1]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/30/grafo_geografico_30_04.png
+[geo2]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/30/grafo_geografico_30_04_bfs.png
+[geo3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/30/grafo_geografico_30_04_dfs_i.png
+[geo4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/30/grafo_geografico_30_04_dfs_r.png
 
-### Modelo Barabási-Albert
-#### Modelo Barabási-Albert 30 nodos y grado 5
+### Modelo geográfico de 100 nodos y 03
+#### Generado
+![geografico 100 nodos][geo100]
+#### Calculado con BFS
+![geografico calculado con BFS][geo1002]
+#### Calculado con DFS iterativo
+![geografico calculado con DFS iterativo][geo1003]
+#### Calculado con DFS recursivo
+![geografico calculado con DFS recursivo][geo1004]
+
+[geo100]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/100/grafo_geografico_100_03.png
+[geo1002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/100/grafo_geografico_100_03_bfs.png
+[geo1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/100/grafo_geografico_100_03_dfs_i.png
+[geo1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/100/grafo_geografico_100_03_dfs_r.png
+
+### Modelo geográfico de 500 nodos y 01
+#### Generado
+![geografico 500 nodos][geo500]
+#### Calculado con BFS
+![geografico calculado con BFS][geo5002]
+#### Calculado con DFS iterativo
+![geografico calculado con DFS iterativo][geo5003]
+#### Calculado con DFS recursivo
+![geografico calculado con DFS recursivo][geo5004]
+
+[geo500]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/500/grafo_geografico_500_01.png
+[geo5002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/500/grafo_geografico_500_01_bfs.png
+[geo5003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/500/grafo_geografico_500_01_dfs_i.png
+[geo5004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/geografico/500/grafo_geografico_500_01_dfs_r.png
+
+### Modelo Barabási-Albert 30 nodos y grado 5
+#### Generado
 ![albert 30 nodos][albert1]
-#### Modelo Barabási-Albert 100 nodos y grado 9
-![albert 100 nodos][albert2]
+#### Calculado con BFS
+![albert calculado con BFS][albert2]
+### Calculado con DFS iterativo
+![aberto calculado con DFS iterativo][albert3]
+### Calculado con DFS recursivo
+![abertocalculado con DFS recursivo][albert4]
+
+[albert1]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/30/grafo_babarasi_30_05.png
+[albert2]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/30/grafo_babarasi_30_05_bfs.png
+[albert3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/30/grafo_babarasi_30_05_dfs_i.png
+[albert4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/30/grafo_babarasi_30_05_dfs_r.png
+
+### Modelo Barabási-Albert 100 nodos y grado 9
+#### Generado
+![albert 100 nodos][albert100]
+#### Calculado con BFS
+![albert calculado con BFS][albert1002]
+### Calculado con DFS iterativo
+![aberto calculado con DFS iterativo][albert1003]
+### Calculado con DFS recursivo
+![abertocalculado con DFS recursivo][albert1004]
+
+[albert100]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/100/grafo_babarasi_100_09.png
+[albert1002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/100/grafo_babarasi_100_09_bfs.png
+[albert1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/100/grafo_babarasi_100_09_dfs_i.png
+[albert1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/100/grafo_babarasi_100_09_dfs_r.png
+
 ### Modelo Barabási-Albert 500 nodos y grado 20
-![aberto 500 nodos][albert3]
+#### Generado
+![albert 500 nodos][albert500]
+#### Calculado con BFS
+![albert calculado con BFS][albert5002]
+### Calculado con DFS iterativo
+![aberto calculado con DFS iterativo][albert5003]
+### Calculado con DFS recursivo
+![abertocalculado con DFS recursivo][albert5004]
 
-[albert1]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/babarasi/babarasi_30_05.png
-[albert2]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/babarasi/babarasi_100_09.png
-[albert3]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/babarasi/babarasi_500_20.png
+[albert500]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/500/grafo_babarasi_500_20.png
+[albert5002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/500/grafo_babarasi_500_20_bfs.png
+[albert5003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/500/grafo_babarasi_500_20_dfs_i.png
+[albert5004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/babarasi/500/grafo_babarasi_500_20_dfs_r.png
 
-### Modelo Dorogovtsev-Mendes
-#### Modelo Dorogovtsev-Mendes 30 nodos
+### Modelo Dorogovtsev-Mendes de 30 nodos
+#### Generado
 ![Dorogovtsev-Mendes 30 nodos][mendes1]
-#### Modelo Dorogovtsev-Mendes 100 nodos
-![Dorogovtsev-Mendes 100 nodos][mendes2]
-#### Modelo Dorogovtsev-Mendes 500 nodos
-![Dorogovtsev-Mendes 500 nodos][mendes3]
+#### Calculado con BFS
+![Dorogovtsev-Mendes calculado con BFS][mendes2]
+#### Calculado con DFS iterativo
+![Dorogovtsev-Mendes calculado con DFS iterativo][mendes3]
+#### Calculado con DFS recursivo
+![Dorogovtsev-Mendes calculado con DFS recursivo][mendes4]
 
-[mendes1]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/dorogovtsev_mendes/dorogovtsev_mendes_30.png
-[mendes2]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/dorogovtsev_mendes/dorogovtsev_mendes_100.png
-[mendes3]: https://github.com/AlbertoEJ/ADA/blob/main/Proyecto_01/archivos_gv_e_imagenes/dorogovtsev_mendes/dorogovtsev_mendes_500.png
+[mendes1]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/30/grafo_dorogovtsev_mendes_30.png
+[mendes2]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/30/grafo_dorogovtsev_mendes_30_bfs.png
+[mendes3]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/30/grafo_dorogovtsev_mendes_30_dfs_i.png
+[mendes4]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/30/grafo_dorogovtsev_mendes_30_dfs_r.png
+
+### Modelo Dorogovtsev-Mendes de 100 nodos
+#### Generado
+![Dorogovtsev-Mendes 100 nodos][mendes100]
+#### Calculado con BFS
+![Dorogovtsev-Mendes calculado con BFS][mendes1002]
+#### Calculado con DFS iterativo
+![Dorogovtsev-Mendes calculado con DFS iterativo][mendes1003]
+#### Calculado con DFS recursivo
+![Dorogovtsev-Mendes calculado con DFS recursivo][mendes1004]
+
+[mendes100]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/100/grafo_dorogovtsev_mendes_100.png
+[mendes1002]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/100/grafo_dorogovtsev_mendes_100_bfs.png
+[mendes1003]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/100/grafo_dorogovtsev_mendes_100_dfs_i.png
+[mendes1004]: https://github.com/AlbertoEJ/ADA2/blob/main/Proyecto_02/archivos_gv_e_imagenes/Dorogovtsev/100/grafo_dorogovtsev_mendes_100dfs_r.png
+
